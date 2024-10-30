@@ -4,7 +4,8 @@ Minimal reproducible example for: https://github.com/huggingface/candle/issues/2
 
 ## Results 
 
-```nvidia-smi --query-gpu=name,compute_cap,driver_version --format=csv
+```
+$nvidia-smi --query-gpu=name,compute_cap,driver_version --format=csv
 name, compute_cap, driver_version
 NVIDIA GeForce RTX 4090, 8.9, 550.107.02
 ```
